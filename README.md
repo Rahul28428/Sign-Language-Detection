@@ -36,52 +36,10 @@ Feel free to contribute or report issues!
 
 
 
-# Sign Language Detection using LSTM
 
-## Overview
 
-This project focuses on real-time sign language detection using computer vision and machine learning techniques. It captures hand gestures, processes them with MediaPipe, and utilizes a combination of LSTM layers and TensorFlow for accurate action detection from holistic keypoints.
 
-## Key Features
 
-- Holistic keypoints extraction with MediaPipe
-- Real-time interpretation of sign language gestures
-- LSTM-based action detection for sequence modeling
-- Utilizes TensorFlow, MediaPipe, and OpenCV for implementation
-
-## Setup
-
-1. Install the required dependencies:
-    ```bash
-    pip install tensorflow==2.4.1 tensorflow-gpu==2.4.1 opencv-python mediapipe sklearn matplotlib
-    ```
-
-2. Run the main script:
-    ```bash
-    python sign_language_detection.py
-    ```
-
-## Data Collection
-
-The project includes a data collection module for building and training the LSTM model. It captures sequences of hand gestures, extracts keypoints, and saves them for training.
-
-## Training the Model
-
-The LSTM model is trained on the collected data using TensorFlow. The training process includes multiple epochs and utilizes the categorical crossentropy loss function.
-
-```bash
-python train_model.py
-```
-
-## Evaluation and Testing
-The trained model is evaluated using test data, and its performance is assessed using metrics such as multilabel confusion matrix and accuracy score.
-
-```bash
-python evaluate_model.py
-```
-
-markdown
-Copy code
 # Sign Language Detection using LSTM
 
 ## Overview
