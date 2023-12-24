@@ -1,7 +1,7 @@
 # Sign-Language-Detection
 
 
-##Sign Language Detection using SVM / Random Forest
+## Sign Language Detection using SVM / Random Forest
 
 ## Overview
 This project enables real-time sign language detection through computer vision and machine learning. It captures hand gestures, processes them with MediaPipe, and employs SVM/Random Forest for classification.
