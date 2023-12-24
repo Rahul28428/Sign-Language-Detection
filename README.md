@@ -101,7 +101,7 @@ Non-trainable params: 0 (0.00 Byte)
 The trained model is evaluated using test data, and its performance is assessed using metrics such as multilabel confusion matrix and accuracy score.
 
 
-Real-time Prediction
+## Real-time Prediction
 The real-time sign language detection module captures video frames, extracts holistic keypoints, and predicts gestures using the trained LSTM model. The predictions are displayed on the screen, providing a user-friendly interface for sign language interpretation.
 
 
