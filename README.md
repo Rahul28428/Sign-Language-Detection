@@ -25,13 +25,6 @@ This project enables real-time sign language detection through computer vision a
 ## Model Selection
 Choose between SVM and Random Forest by modifying the classifier in `train_classifier.py`. Update the `labels_dict` in `inference_classifier.py` accordingly.
 
-## Credits
-- [OpenCV](https://opencv.org/)
-- [MediaPipe](https://mediapipe.dev/)
-- [Scikit-learn](https://scikit-learn.org/)
-
-Feel free to contribute or report issues!
-
 
 
 
@@ -106,7 +99,12 @@ The trained model is evaluated using test data, and its performance is assessed 
 The real-time sign language detection module captures video frames, extracts holistic keypoints, and predicts gestures using the trained LSTM model. The predictions are displayed on the screen, providing a user-friendly interface for sign language interpretation.
 
 
+## Contributors
+1. Rahul Barodia [LinkedIn](https://www.linkedin.com/in/rahul-barodia/)
+2. Agnibha Burman Roy [LinkedIn](https://www.linkedin.com/in/agnibha-burman-roy-14b423200/)
 
+
+Feel free to contribute or report issues!
 
 
 
